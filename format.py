@@ -1,3 +1,4 @@
+#you should use python test.py>all.txt to save printing content
 with open('20k') as f:
     content = f.readlines()
 content=[x.strip() for x in content]
