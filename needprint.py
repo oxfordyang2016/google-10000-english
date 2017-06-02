@@ -7,7 +7,7 @@ for k in range(len(content)):
     #print open_string
     print(open_string.format(content[p],content[p+1],content[p+2]))
     #print(content[p],content[p+1],content[p+2])
-    if p>19993:
+    if p>193:
         break
 
 
